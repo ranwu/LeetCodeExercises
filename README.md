@@ -1,2 +1,5 @@
 # LeetCodeExercises
-LeetCodeExercises
+这个仓库包含了一些LeetCode的练习代码以及我的算法学习过程。
+## 第一天 -- 2016.1.13
+1. 创建了本仓库
+2. 学习了栈和队列的内容
