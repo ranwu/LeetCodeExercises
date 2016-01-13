@@ -62,5 +62,5 @@ stack.push(15);
 stack.pop(); // 从栈顶移除元素
 stack.pop();
 console.log(stack.size()); // 2
-stack.print(); // 5 8
+stack.print(); // 5, 8
 
