@@ -48,4 +48,19 @@ function Stack() {
 
 /////////////// 测试 ///////////////////
 
+var stack = new Stack(); // 创建一个Stack对象
+console.log(stack.isEmpty()); // true
+stack.push(5);
+stack.push(8);
+console.log(stack.peek()); // 8 输出最新添加的元素
+
+stack.push(11);
+console.log(stack.size()); // 3
+console.log(stack.isEmpty()); // false
+
+stack.push(15);
+stack.pop(); // 从栈顶移除元素
+stack.pop();
+console.log(stack.size()); // 2
+stack.print(); // 5 8
 
