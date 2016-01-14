@@ -46,6 +46,8 @@ function Stack() {
 	};
 }
 
+exports.Stack = Stack;
+
 /////////////// 测试 ///////////////////
 
 var stack = new Stack(); // 创建一个Stack对象
