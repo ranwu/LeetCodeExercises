@@ -46,7 +46,7 @@ function Queue() {
 	// 打印队列
 	this.print = function() {
 		console.log(items.toString());
-	}
+	};
 }
 
 ///////////////// TEST /////////////////////
