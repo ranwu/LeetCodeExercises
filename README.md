@@ -1,6 +1,6 @@
 # LeetCodeExercises
 
-这个仓库包含了一些LeetCode的练习代码以及我的算法学习过程。
+这个仓库包含了一些LeetCode的练习代码以及我的算法学习过程。算法思考过程见 `ranwu/notes/algorithm`。
 
 ## 第1天 -- 2016.1.13
 
