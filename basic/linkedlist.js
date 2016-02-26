@@ -89,12 +89,46 @@ function LinkedList() {
 			return null;
 		}
 	};
-	this.remove = function(element) {};
-	this.indexOf = function(element) {};
-	this.isEmpty = function() {};
-	this.size = function() {};
-	this.toString = function() {};
+	this.remove = function(element) {
+		var index = this.indexOf(element);
+		return this.removeAt(index);
+	};	
+	this.indexOf = function(element) {
+
+		var current = head,
+			index = -1;
+
+		while (current) {
+			if (element === current.element) {
+				return index;
+			}
+			index++;
+			current = current.next;
+		}
+
+		return -1;
+	};
+	this.isEmpty = function() {
+		return length === 0;
+	};
+	this.size = function() {
+		return length;
+	};
+	this.toString = function() {
+
+		var current = head,
+			string = '';
+
+		while (current) {
+			string = current.element;
+			current = current.next;
+		}
+		return string;
+	};
 	this.print = function() {};
+	this.getHead = function() {
+		return head;
+	};
 }
 
 var list = new LinkedList();
